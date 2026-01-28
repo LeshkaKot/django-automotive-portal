@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block breadcrumbs %}
+{% if perms.student.change_student %}
+<p><a href="{% url 'edit_page' post.slug %}">Edit</a></p>
+{% endif %}
+{% with post.tags.all as tags %}
+{% if tags %}
+    <ul class="tags-list">
+        <li>Tags:</li>
+        {% for t in tags %}
+        <li><a href="{{t.get_absolute_url}}">{{t.tag}}</a></li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% endwith %}
+{% endblock %}
+
+
+{% block content %}
+<h1>{{ post.title }}</h1>
+
+{% if post.photo %}
+<p><img class="img-article-left" src="{{post.photo.url}}"></p>
+{% endif %}
+
+{{post.content|linebreaks}}
+{% endblock %}
+
+
+
+

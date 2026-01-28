@@ -1,0 +1,1 @@
+[{"model": "student.manual", "pk": 1, "fields": {"name": "Civic Manual", "pages": 100}}, {"model": "student.manual", "pk": 2, "fields": {"name": "Accord  Manual", "pages": 100}}, {"model": "student.manual", "pk": 3, "fields": {"name": "CRV  Manual", "pages": null}}, {"model": "student.manual", "pk": 4, "fields": {"name": "Pilot  Manual", "pages": null}}]

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtualenv
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Django
+media/
+staticfiles/
+*.log
+
+# Docker
+postgres-data/

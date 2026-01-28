@@ -1,0 +1,1 @@
+[{"model": "student.category", "pk": 9, "fields": {"name": "Седаны", "slug": "sedany"}}, {"model": "student.category", "pk": 10, "fields": {"name": "Внедорожники/Кроссоверы", "slug": "vnedorojniki-crossoveru"}}, {"model": "student.category", "pk": 11, "fields": {"name": "Хетчбеки", "slug": "hatchbacky"}}]

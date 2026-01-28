@@ -1,0 +1,1 @@
+[{"model": "users.user_groups", "pk": 1, "fields": {"user": 2, "group": 1}}, {"model": "users.user_groups", "pk": 2, "fields": {"user": 4, "group": 2}}]
