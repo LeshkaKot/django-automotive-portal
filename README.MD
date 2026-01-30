@@ -87,7 +87,7 @@ Junior Python / Django Developer
 ![Homepage](screenshots/homepage.png)
 
 ### Authentication
-![Login](screenshots/Login.png)
+![Login](screenshots/login.png)
 
 ### Admin Panel
 ![Admin Panel](screenshots/admin_panel.png)
@@ -96,10 +96,10 @@ Junior Python / Django Developer
 ![Admin Panel](screenshots/admin_panel2.png)
 
 ### Profile
-![Profile](screenshots/Profile.png)
+![Profile](screenshots/profile.png)
 
 ### AddPost
-![AddPost](screenshots/AddPost.png)
+![AddPost](screenshots/addPost.png)
 
 ### Feedback
-![Feedback](screenshots/Feedback.png)
+![Feedback](screenshots/feedback.png)
